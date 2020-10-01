@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/plug_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical"
+    android:padding="10dip"
+    tools:context=".ScrollingFragment">
+
+    <TextView
+        android:id="@+id/plug_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/plug_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/plug_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/plug_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="turnOn"
+            android:text="@string/on" />
+
+        <Button
+            android:id="@+id/plug_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="turnOff"
+            android:text="@string/off" />
+    </LinearLayout>
+
+</LinearLayout>

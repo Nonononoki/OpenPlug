@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">OpenPlug</string>
+
+    <string name="pref_devices">pref_devices</string>
+
+    <string name="ssid">SSID</string>
+    <string name="password">Password</string>
+    <string name="connect_wifi">Connect to WiFi</string>
+
+    <string name="name">Name</string>
+    <string name="ip_address">IP Address</string>
+    <string name="ip_local">192.168.</string>
+
+    <string name="add">Add</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+
+    <string name="new_device_created">New device created</string>
+    <string name="error_missing_name">Name missing</string>
+
+</resources>
